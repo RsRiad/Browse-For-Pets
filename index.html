@@ -77,7 +77,7 @@
         <div class="max-w-7xl mx-auto px-4">
         
          -->
-        <section class=" py-12 mx-auto relative border-green-600 border-4 sm:pb-[200px] md:pb-[250px] pb-[120px] lg:pb-[400px]"> <!-- Added pb-40 -->
+        <section class=" py-12 mx-auto relative sm:pb-[200px] md:pb-[250px] pb-[120px] lg:pb-[400px]"> <!-- Added pb-40 -->
             <div class="max-w-7xl mx-auto px-4">
             <div>
                 <h1 class="lg:text-[56px] text-[26px] md:text-[40px] font-adlam">
@@ -85,7 +85,7 @@
                 </h1>
             </div>
             <div>
-                <p class="font-sora text-gray-500 w-80 md:w-96 border-yellow-700 border-4">
+                <p class="font-sora text-gray-500 w-80 md:w-96">
                     Discover a world of treats, toys, and essentials handpicked for <br>your furry friends. 
                     Shop now and make tails wag with joy!
                 </p>
@@ -95,7 +95,7 @@
             </div>
             <!-- <div class="overflow-hidden"> -->
                 <img src="./assets/cat-big.png" alt="cat"
-                    class="absolute sm:top-24 top-52 -z-10 border-yellow-700 border-4 pb-16 object-cover">
+                    class="absolute sm:top-24 top-52 -z-10 pb-16 object-cover">
             <!-- </div> -->
         </div>
         </section>
@@ -187,7 +187,7 @@
                 <!-- Heading -->
                 <h2 class="text-2xl font-bold mb-6 ">Trending Pet Products</h2>
         
-                <div class="grid grid-cols-1 md:grid-cols-[40%_60%] gap-6">
+                <div class="grid grid-cols-1 md:grid-cols-[40%_60%] gap-6 mx-auto">
                     <!-- Left Featured Product -->
                     <div class="bg-yellow-300 p-6 rounded-xl relative h-72 ">
                         <h3 class="text-xl font-bold mb-2">T-Shirt For Dogs</h3>
@@ -259,11 +259,88 @@
         
         </section>
 
+        <section class="py-12">
+            <div class="max-w-7xl mx-auto px-4">
+                <h2 class="text-2xl font-bold mb-6 ">Everyday low price</h2>
+                <div class="grid grid-cols-1 md:grid-cols-[60%_40%] gap-4">
+                     <!-- left -->
+                <div class="bg-purple-300 flex justify-around gap-2 items-center p-6 rounded-2xl h-[480px]">
+                    <div class=" space-y-3">
+                       <p class="">Under price</p>
+                       <h2 class="text-2xl font-bold">Pet Grooming Mitt</h2>
+                       <p class="text-white font-bold">(Easy Hair Removal)</p>
+                       <h1 class="text-4xl font-bold">$7.99</h1>
+                    </div>
+                    
+                    <div class="">
+                       <img class="w-auto" src="./assets/cute-dog-mid.png" alt="">
+                    </div>
+
+               </div>
+               <!-- Right -->
+               <div class="bg-yellow-100 rounded-2xl p-6 relative h-[480px]">
+                   <h2 class="text-2xl font-bold mt-10 mb-2">T-Shirt For Dogs</h2>
+                   <h1 class="text-4xl font-bold text-yellow-500">$7.99</h1>
+                   <img class="absolute bottom-0 right-0" src="./assets/cute-pet-mid.png" alt="">
+               </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-    <footer>
-
-    </footer>
+    <footer class="footer bg-yellow-200 text-base-content relative py-12 justify-center mt-36">
+        
+        
+        
+        <div class="max-w-4xl mx-auto rounded-2xl shadow-lg p-6 lg:p-8 flex flex-col lg:flex-row items-center gap-6 
+                        absolute lg:-top-50 top-[-10rem] left-1/2 transform -translate-x-1/2 
+                        w-[90%] sm:w-[80%] lg:w-[100%] justify-center bg-white">
+                <img src="./assets/cute-pet-mid.png" alt="pet" 
+                     class="w-40 sm:w-48 lg:w-64">
+                <div class="flex-1 text-center lg:text-left">
+                    <h2 class="text-2xl font-bold text-gray-900">Get Pawsome News!</h2>
+                    <p class="text-gray-600 text-sm sm:text-base">Exclusive training tips, ticks, product deals and more.</p>
+                    <div class="mt-4 space-y-3">
+                        <input type="email" placeholder="Enter email..." 
+                               class="w-full p-3 border rounded-lg focus:ring-2 outline-none">
+                               <button class="btn btn-warning bg-yellow-400 border-yellow-400 mb-6">Subscribe</button>
+                    </div>
+                </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class=" mt-32 lg:mt-32 py-12 text-black pt-20">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-6 text-center md:text-left justify-center">
+                <!-- Logo & Description -->
+                <div>
+                    <img src="./assets/logo-footer.png" alt="Nature's Platter Logo" class="mx-auto md:mx-0">
+                    <p class="text-black mt-2 text-sm">
+                        Discover a world of treats, toys, and essentials handpicked for your furry friends.
+                    </p>
+                </div>
+                <!-- Links -->
+                <div class="flex flex-col space-y-3 ">
+                    <p class="">Find a pet</p>
+                    <p class="">Breeds</p>
+                    <p class="">Contact Us</p>
+                </div>
+                <!-- Social Media icons -->
+                <div>
+                    <h4 class="font-bold mb-2">Follow Us</h4>
+                    <div class="flex justify-center md:justify-start space-x-4 text-xl">
+                        <i class="fab fa-facebook "></i> 
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin "></i> 
+                        <i class="fab fa-youtube  "></i>  
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
 
 </body>
 </html>
